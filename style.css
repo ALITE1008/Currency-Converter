@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:rgb(85, 90, 193);
+}
+body{
+    background-color: rgb(12, 24, 25);
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+.container{
+    background-color:whitesmoke ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;   
+    width: 80vmin;
+    height: 30vh;
+    border: 5px solid rgba(255, 0, 0, 0.6 );
+    border-radius: 20px;
+}
+.output_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+.output_value{
+    margin-left: 3.2vmin;
+    border: 1px black solid;
+    background-color:white;
+    height: 3.4vmin;
+    width: 30vmin;
+    border-radius: 2px;
+}
+.input_value{
+    border: 1px black solid;
+    background-color:white;
+    height: 3.4vmin;
+    width: 30vmin;
+    border-radius: 2px;
+}
+.flag1,.flag2{
+    height:3vmin;
+    width: 3vmin;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+#btn{
+    background-color: rgb(196, 196, 196) ;
+    width: 15vmin;
+    border-radius: 7px;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+}
+
+.input> img{
+    max-width: 2rem;
+}
+.output_div > img{
+    max-width: 2rem;
+}
+
+select{
+    color: aliceblue;
+    border-radius: 2px;
+    background-color: rgb(11, 11, 11,0.7) ;
+    height: 1.4rem;
+}
+
+.date{
+    margin-top: 2vh;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    background-color: aliceblue;
+}

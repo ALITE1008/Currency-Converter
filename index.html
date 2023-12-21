@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Currency Converter</title>
+    <title>Currencey Converter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="converter">
-        <h1>Currency Converter</h1>
-        <div class="input">
-            <input type="number" id="amount" placeholder="Enter amount">
-            <select id="fromCurrency"></select>
+    <div class="div">
+        <div class="container">
+            <h1 style="font-size: 3vw;">
+                Currencey Converter
+            </h1>
+            <form>
+                <div class="input">
+                    <h3>From:</h3>
+                    <input type="text" value="100" id="tocon" class="input_value">
+                     <img src="https://flagsapi.com/IN/flat/64.png" >
+                    <select name="selectfrom">
+                    </select>
+                </div>
+                <br>
+                <div class="output_div">
+                    <h3>To:</h3>
+                    <div class="output_value"></div>
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <select name="selectTo">
+                    </select>
+                </div>
+                
+            </form>
+            <button type="button" id="btn">Convert</button>
         </div>
-        <span>&rarr;</span>
-        <div class="output">
-            <span id="result">Result</span>
-            <select id="toCurrency"></select>
-        </div>
+        <h2 style="color: azure;">
+            <br>
+            Updated on
+        </h2>
+       <div class="date">
+
+       </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
